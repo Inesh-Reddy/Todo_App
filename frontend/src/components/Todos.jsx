@@ -1,12 +1,14 @@
 
-/* todos = [
-   {
-    title: "go to gym",
-    description: "go to gym",
-   } 
-   ]
-*/
+// /* todos = [
+//    {
+//     title: "go to gym",
+//     description: "go to gym",
+//    } 
+//    ]
+// */
 export function Todos({todos}) {
+    console.log("Rendering Todos component");
+    console.log("Todos:", todos);
 
     return <div>
         {todos.map(function(todo) {
@@ -18,3 +20,6 @@ export function Todos({todos}) {
         })}
     </div>
 }
+
+
+
